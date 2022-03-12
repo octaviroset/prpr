@@ -1,7 +1,6 @@
-import javafx.scene.layout.StackPane;
 
-public class Board extends StackPane {
-
-    private  Entity entity;
+public class Board {
+    public static Tile[][] grid;
+    private  Entity asldfkas;
 
 }
