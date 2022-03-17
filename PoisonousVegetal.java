@@ -1,2 +1,3 @@
-public interface PoisonousVegetal extends Vegetal{
+public interface PoisonousVegetal extends Vegetal {
+    void poison();
 }
