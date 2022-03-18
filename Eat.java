@@ -1,3 +1,6 @@
+/**
+ * Accio menjar ex (un animal pot menjar un vegetal)
+ */
 public class Eat implements Node {
     public void start() {}
     public TaskStatus tick() {return null;}

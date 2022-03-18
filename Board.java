@@ -1,5 +1,8 @@
 import javafx.scene.layout.StackPane;
 
+/**
+ * Tauler que conte un conjunt d'entitats
+ */
 public class Board extends StackPane {
 
     public void addEntity(Entity entity){
