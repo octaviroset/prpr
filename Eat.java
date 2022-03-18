@@ -1,5 +1,5 @@
 /**
- * Accio menjar ex (un animal pot menjar un vegetal)
+ * Node amb l'acció de menjar ex (un animal pot menjar un vegetal)
  */
 public class Eat implements Node {
     public void start() {}

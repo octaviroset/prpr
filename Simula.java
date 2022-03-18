@@ -29,13 +29,17 @@ public class Simula {
         }
     }
 
+
+    /**
+     * Algorisme principal de la simulació.
+     */
     void step() {
         for (Entity entity : entities) {
             entity.calculatePriorities(); // calcula les prioritats de les seguents possibles accions
-            pq.offer(entity);
+            pq.offer(entity); // crear cua de prioritats amb entitats ordenades per llistes de prioritats
         }
-        while (!pq.isEmpty())
-            pq.poll().update();
+        while (!pq.isEmpty()) // mentre hi haguin entitats a la cua
+            pq.poll().update(); // s'actualitzen
     }
 /*
     public void addEntity(Entity e) {

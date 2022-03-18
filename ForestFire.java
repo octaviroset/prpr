@@ -3,8 +3,11 @@
  * te t temps de vida que a cada pas de la simulació es redueix per 1.
  */
 public class ForestFire extends Entity {
-    public void spawn() {}
-
     @Override
     public void update() {}
+
+    @Override
+    public void calculatePriorities() {
+
+    }
 }

@@ -1,3 +1,6 @@
+/**
+ * Node pare que executa fills fins que un es completa sense fallar.
+ */
 public class Selector implements Composite {
 
     public void start() {}

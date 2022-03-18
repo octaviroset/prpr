@@ -1,27 +1,16 @@
-import java.util.List;
-
 /**
  * Guineu, actualitza el seu comportament fins que es mor.
  */
 public class Fox extends Animal{
 
-    public void recieveDamage() {
-    }
+    //private Behaviour behaviour = new FoxBehaviour();
 
     @Override
     public void update() {}
 
     @Override
-    public void calculatePriorities() {
-        /*
+    public void calculatePriorities() {}
 
-        for enemy in range
-            afegir prioritat (base enemics * distancia)
-
-        for menjar in range
-            afegir priritat (base menjar * distancia)
-
-         */
-
-    }
+    @Override
+    public void recieveDamage(int amount) {}
 }

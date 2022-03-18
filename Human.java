@@ -1,4 +1,14 @@
+/**
+ * Classe base Humans
+ */
 public abstract class Human extends Animal {
-    abstract void spawn();
-    abstract void despawn();
+    /**
+     * Fa que l'humà pugui actuar.
+     */
+    public void enable() {}
+
+    /**
+     * Fa que l'humà deixi d'actuar.
+     */
+    private void disable() {}
 }

@@ -3,10 +3,14 @@
  */
 public class Eagle extends Animal {
 
-    Behaviour behaviour = new EagleBehaviour();
-
-    public void recieveDamage() {}
+    //Behaviour behaviour = new EagleBehaviour();
 
     @Override
     public void update() {}
+
+    @Override
+    public void calculatePriorities() {}
+
+    @Override
+    public void recieveDamage(int amount) {}
 }

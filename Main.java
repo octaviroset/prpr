@@ -5,7 +5,11 @@ import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
 public class Main extends Application {
+    @Override
+    public void start(Stage primaryStage) throws Exception {
 
+    }
+/*
     Board board;
 
     @Override
@@ -21,5 +25,5 @@ public class Main extends Application {
  //PROVAOCTAVI
     public static void main(String[] args) {
         launch(args);
-    }
+    }*/
 }

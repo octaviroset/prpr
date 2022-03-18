@@ -9,9 +9,20 @@ public abstract class Animal extends Entity {
     //protected int visionRange;
     //protected int hunger;
     //protected int maxHunger;
+    protected Behaviour behaviour;
 
-    protected Collection<Entity> enemies;
-    protected Collection<Entity> food;
+    /**
+     * Colleccio d'especies enemiguies.
+     */
+    protected Collection<Species> enemies;
+    /**
+     * Colleccio d'especies consumibles
+     */
+    protected Collection<Species> consumables;
 
-    abstract void recieveDamage();
+    /**
+     * L'animal reb mal.
+     * @param amount Quantitat de mal rebut.
+     */
+    public abstract void recieveDamage(int amount);
 }
