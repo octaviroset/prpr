@@ -1,6 +1,7 @@
-public class Fox extends Entity implements Animal{
+public class Fox extends Animal{
 
-    public void recieveDamage() {}
+    public void recieveDamage() {
+    }
 
     @Override
     public void update() {}

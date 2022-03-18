@@ -1,4 +1,9 @@
-public class Rabbit extends Entity implements Animal{
+public class Rabbit extends Animal {
+
+    Rabbit() {
+
+    }
+
     public void recieveDamage() {}
 
     @Override

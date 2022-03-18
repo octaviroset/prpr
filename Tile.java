@@ -1,5 +1,5 @@
 public class Tile {
-    public void addEntity(Entity entity) {}
+    public boolean addEntity(Entity entity) {return true;}
 
     public void removeEntity(Entity entity){}
 

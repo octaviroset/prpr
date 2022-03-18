@@ -1,6 +1,4 @@
-public class Carrot extends Entity implements Vegetal{
+public class Carrot extends Vegetal {
     public void die() {}
-
-    @Override
     public void update() {}
 }

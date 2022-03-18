@@ -1,3 +1,3 @@
-public interface Vegetal {
-    void die();
+public abstract class Vegetal extends Entity {
+    abstract void die();
 }

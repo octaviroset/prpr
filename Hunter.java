@@ -1,4 +1,4 @@
-public class Hunter extends Entity implements Human {
+public class Hunter extends Human {
     public void spawn() {}
     public void despawn() {}
     public void recieveDamage() {}

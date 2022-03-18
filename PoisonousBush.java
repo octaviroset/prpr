@@ -1,4 +1,4 @@
-public class PoisonousBush extends Entity implements Vegetal {
+public class PoisonousBush extends Vegetal {
     public void die() {}
     @Override
     public void update() {}

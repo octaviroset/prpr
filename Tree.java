@@ -1,4 +1,4 @@
-public class Tree extends Entity implements Vegetal{
+public class Tree extends Vegetal{
     public void die() {}
 
     @Override
