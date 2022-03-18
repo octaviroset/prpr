@@ -1,3 +1,6 @@
+/**
+ *
+ */
 public class Tree extends Vegetal{
     public void die() {}
 
